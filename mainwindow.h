@@ -14,7 +14,7 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-    QString getchances(){return chances;}
+
 private slots:
 
     void on_guess_clicked();
